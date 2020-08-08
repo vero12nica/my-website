@@ -57,3 +57,8 @@ button:hover{
 button:active{
     transform: scale(0.9);
 }
+.btn-fade{
+    transition: all0.3s ease-out 0.2s;
+    visibility: hidden;
+    opacity: 0;
+}
