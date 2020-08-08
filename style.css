@@ -62,3 +62,55 @@ button:active{
     visibility: hidden;
     opacity: 0;
 }
+header{
+    position: absolute;
+    top:50px;
+    left: 50px;
+}
+.btn-arrow{
+    border: none;
+}
+.btn-arrow:hover{
+    background-color: transparent;
+    color: transparent;
+}
+main{
+    position: absolute;
+    left: 120px;
+    top:50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+    clip-path: circle(0% at top left);
+    transition: all 1s ease-out 0.2s;
+
+}
+.main-active{
+    visibility: visible;
+    opacity: 1;
+    clip-path: circle(150% at top left);
+    transition: all 0.5s ease-out;
+}
+main h1{
+    font-size: 220px;
+    font-weight: 100;
+    letter-spacing: -17px;
+    line-height: 154px;
+}
+main h2{
+    font-size: 84px;
+    margin-left: 12px;
+    font-weight: 200;
+}
+main h2 span{
+    font-weight: 900;
+}
+main h3{
+    font-size: 54px;
+    font-weight: 200;
+    margin-left: 12px;
+}
+main h3 span{
+    font-weight: 900;
+}
